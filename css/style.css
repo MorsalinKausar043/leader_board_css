@@ -122,7 +122,7 @@ ul img.nav_image{
  .players{
      display: grid;
      grid-template-columns: repeat(3 , 1fr);
-     grid-gap: 20px;
+     grid-gap: 30px;
  }
 
  .player{
@@ -326,6 +326,69 @@ article{
         grid-template-columns: repeat(1 , 1fr);
         grid-row-gap: 20px;
     }
-
     
+}
+
+/* set up teblet */
+
+@media (min-width : 688px) and (max-width : 991px) {
+    
+    /* top players */
+
+    .nav_header{
+        padding: 0 10px;
+    }
+
+    .block_section{
+        width: 100%;
+    }
+
+    .navigation ul li{
+        display: none;
+    }
+
+    .navigation ul{
+        width: 60px;
+    }
+
+    ul img.nav_image{
+        display: block;
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .player{
+        display: flex;
+        margin-left: 25%;
+        align-items: center;
+    }
+
+    .player .player_title{
+        margin-top: 16px;
+     }
+   
+      /* top blogs */
+
+      .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    article{
+        display: flex;
+        margin-left: 10%;
+     }
+
+      /* letest course part */
+
+      .courses{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap: 30px;
+    }
+ 
 }
