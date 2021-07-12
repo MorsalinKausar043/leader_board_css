@@ -16,6 +16,7 @@
 body{
     background-color: #F3F1FF;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
 }
 
 li{
@@ -111,7 +112,7 @@ li a img{
     color : #562EFF;
     text-transform: capitalize;
     margin-top: 0;
-    /* margin-bottom: 25px; */
+    margin-bottom: 25px;
  }
 
  .players{
@@ -191,10 +192,13 @@ article{
 }
 
 .course{
-    padding: 20px;
-    /* filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05)); */
+    padding: 10px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .05);
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .course_img img{
@@ -203,7 +207,7 @@ article{
 }
 
 .course_title{
-    font-size: 20.0336px;
+    font-size: 18.0336px;
     margin: 10px 0 0 0;
 }
 
