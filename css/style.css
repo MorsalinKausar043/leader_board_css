@@ -249,3 +249,67 @@ article{
 .disabled_rating{
     color:  #AEAEAE;
 }
+
+
+ /* ------------------------ */
+    /* make responsive */
+/* ------------------------ */ 
+
+/* make mobile free responsive */
+
+ /* main dashboard part */
+
+  /* top players */
+
+@media (max-width : 688px) {
+
+    .block_section{
+        width: 100%;
+    }
+
+    .navigation ul{
+        display: none;
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 20px;
+    }
+
+    .player{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .player .player_title{
+        margin-top: 16px;
+     }
+   
+    /* top blogs */
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     }
+
+     /* letest course part */
+
+     .courses{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-row-gap: 20px;
+    }
+
+    
+}
