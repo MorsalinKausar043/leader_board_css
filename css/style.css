@@ -343,18 +343,6 @@ article{
         width: 100%;
     }
 
-    .navigation ul li{
-        display: none;
-    }
-
-    .navigation ul{
-        width: 60px;
-    }
-
-    ul img.nav_image{
-        display: block;
-    }
-
     .players{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
