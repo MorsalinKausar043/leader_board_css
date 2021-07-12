@@ -81,6 +81,10 @@ li a img{
     width: 51px;
     height: 51px;
 }
+
+ul img.nav_image{
+    display: none;
+}
  /* ------------------------ */
    /* main dashboard part */
  /* ------------------------ */ 
@@ -263,12 +267,24 @@ article{
 
 @media (max-width : 688px) {
 
+    .nav_header{
+        padding: 0 10px;
+    }
+
     .block_section{
         width: 100%;
     }
 
-    .navigation ul{
+    .navigation ul li{
         display: none;
+    }
+
+    .navigation ul{
+        width: 60px;
+    }
+
+    ul img.nav_image{
+        display: block;
     }
 
     .players{
