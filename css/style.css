@@ -18,6 +18,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 /* ------------------------ */
  /* header part css style */
@@ -34,6 +41,9 @@ body{
 
 .header_container{
     width: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -51,6 +61,24 @@ body{
     font-size: 24px;
     color: #fff;
     margin-left: 10px;
+}
+
+.navigation ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+li a img{
+    width: 51px;
+    height: 51px;
 }
  /* ------------------------ */
    /* main dashboard part */
